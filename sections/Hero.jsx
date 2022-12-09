@@ -10,7 +10,7 @@ const Hero = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25}}
+      viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex flex-col justify-center items-center relative z-10">
@@ -20,7 +20,7 @@ const Hero = () => (
 
         <motion.div variants={textVariant(1.2)} className="flex flex-row justify-center items-center">
           <h1 className={`${styles.heroHeading}`}>Ma</h1>
-          <div className={`${styles.heroDText}`}/>
+          <div className={`${styles.heroDText}`} />
           <h1 className={`${styles.heroHeading}`}>Ness</h1>
         </motion.div>
       </div>
